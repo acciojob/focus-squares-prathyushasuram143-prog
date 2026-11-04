@@ -1,6 +1,6 @@
 //your JS code here. If required.
 <script>
-        const boxes=document.querySelectorAll(".box")
+        const boxes=document.querySelectorAll(".square")
 
         boxes.forEach((box)=>{
 			
