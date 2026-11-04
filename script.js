@@ -10,14 +10,14 @@
            })
 			
 			box.addEventListener("mouseout",(e)=>{
-				box.forEach((box)=>{
-             box.style.backgroundColor: #E6E6FA;
+				boxes.forEach((box)=>{
+             box.style.backgroundColor=#E6E6FA;
 			})
         })
 			function changeColor(hoverRedBoxId){
-				box.forEach((box)=>{
+				boxes.forEach((box)=>{
 					if(box.id !== hoverRedBoxId){
-						box.style.backgroundcolor: #6F4E37
+						box.style.backgroundcolor=#6F4E37
 					}
 				})
 			}
